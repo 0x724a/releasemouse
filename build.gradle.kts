@@ -8,8 +8,11 @@ fun prop(name: String, consumer: (prop: String) -> Unit) {
     (findProperty(name) as? String?)
         ?.let(consumer)
 }
-System.setProperty("socksProxyHost", "127.0.0.1")
-System.setProperty("socksProxyPort", "10808")
+val useProxy = false
+if (useProxy){
+    System.setProperty("socksProxyHost", "127.0.0.1")
+    System.setProperty("socksProxyPort", "10808")
+}
 
 val minecraft = property("deps.minecraft") as String;
 
