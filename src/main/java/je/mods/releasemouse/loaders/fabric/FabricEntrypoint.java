@@ -1,5 +1,5 @@
 //? if fabric {
-/*package je.mods.releasemouse.loaders.fabric;
+package je.mods.releasemouse.loaders.fabric;
 
 import je.mods.releasemouse.ReleaseMouse;
 import com.mojang.logging.LogUtils;
@@ -15,4 +15,4 @@ public class FabricEntrypoint implements ModInitializer {
         ReleaseMouse.initialize();
     }
 }
-*///?}
+//?}
