@@ -26,6 +26,9 @@ jobs:
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
 
+      - name: Build
+        run: ./gradlew build
+
       - name: Switch to 1.18.2 Fabric
         run: ./gradlew :"Set active project to 1.18.2-fabric"
       - name: Build It

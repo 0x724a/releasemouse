@@ -1,5 +1,5 @@
 //? if neoforge {
-package je.mods.releasemouse.loaders.neoforge;
+/*package je.mods.releasemouse.loaders.neoforge;
 
 import je.mods.releasemouse.ReleaseMouse;
 import com.mojang.logging.LogUtils;
@@ -16,4 +16,4 @@ public class NeoforgeEntrypoint {
         ReleaseMouse.initialize(modEventBus);
     }
 }
-//?}
+*///?}

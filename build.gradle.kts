@@ -143,4 +143,8 @@ dependencies {
         modstitchModImplementation("net.fabricmc.fabric-api:fabric-api:${property("deps.fabric_api")}")
     }
     // Anything else in the dependencies block will be used for all platforms.
+    modstitch.moddevgradle {
+        //modstitchModImplementation("")
+    }
+    //modstitchModImplementation()
 }

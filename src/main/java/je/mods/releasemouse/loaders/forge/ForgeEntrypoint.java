@@ -1,5 +1,5 @@
 //? if forge {
-/*package je.mods.releasemouse.loaders.forge;
+package je.mods.releasemouse.loaders.forge;
 
 import je.mods.releasemouse.ReleaseMouse;
 import com.mojang.logging.LogUtils;
@@ -19,4 +19,4 @@ public class ForgeEntrypoint {
         ReleaseMouse.initialize(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
-*///?}
+//?}
