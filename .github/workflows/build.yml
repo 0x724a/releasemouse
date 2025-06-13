@@ -80,6 +80,10 @@ jobs:
 
       - name: Switch to 1.20.1 Forge
         run: ./gradlew :"Set active project to 1.20.1-forge"
+
+      - name: build
+        run: ./gradlew build
+
       - name: Build It
         run: ./gradlew 1.20.1-forge:jar
 
